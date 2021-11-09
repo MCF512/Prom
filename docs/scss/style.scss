@@ -400,6 +400,7 @@
 
 .upgrade {
   padding: 120px 0;
+  background-color: #e5e5e5;
 
   &__wrapper {
     display: flex;
@@ -490,6 +491,135 @@
   }
 }
 
+.contact {
+  background-color: #e5e5e5;
+  padding-bottom: 120px;
+
+  &__title {
+    margin-bottom: 62px;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: end;
+  }
+
+  &__block {
+    font-family: 'Inter';
+    font-weight: 500;
+    margin-right: 92px;
+  }
+
+  &__info {
+    margin-bottom: 52px;
+    max-width: 540px;
+  }
+
+  &__location {
+    background-color: #fff;
+    padding: 50px 63px 50px 37px;
+    // max-width: 574px;
+    // margin-right: 0;
+  }
+
+  &__item {
+    position: relative;
+    padding-left: 50px;
+
+    &:not(:last-child) {
+      margin-bottom: 35px;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: -5px;
+    }
+
+    &--location::before {
+      content: url(../images/location.svg);
+    }
+
+    &--tel::before {
+      content: url(../images/phone.svg);
+    }
+
+    &--mail::before {
+      content: url(../images/mail.svg);
+    }
+
+    &--time::before {
+      content: url(../images/time.svg);
+    }
+
+    &--whatsapp::before {
+      content: url(../images/whatsapp.svg);
+    }
+
+    span {
+      display: block;
+    }
+  }
+
+  &__request {
+    padding: 40px 75px;
+    background-color: #fff;
+  }
+
+  &__subtitle {
+    text-transform: uppercase;
+    font-family: 'Sans';
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 47px;
+    font-size: 20px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  &__input {
+    padding: 12px 25px;
+    border: 1px solid rgba(91, 91, 91, 0.2);
+
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+
+    &::placeholder {
+      color: #8c8c8c;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+
+  #contact__file {
+    display: none;
+  }
+
+  #contact__file + label {
+    padding: 8px 17px;
+    color: #fff;
+    background-color: #5b5b5b;
+    width: fit-content;
+    border-radius: 5px;
+    margin-bottom: 41px;
+  }
+
+  &__submit {
+    color: #fff;
+    background: linear-gradient(89.74deg, #E45128 0.16%, #BD1515 99.78%);
+    border: 1px solid #E45128;
+    border-radius: 5px;
+    padding: 20px 85px;
+    text-transform: uppercase;
+    margin: 0 40px;
+  }
+}
 
 
 
