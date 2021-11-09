@@ -5,7 +5,7 @@ $(function () {
 $('.feedback__slider').slick({
   centerMode: true,
   slidesToShow: 3,
-  // centerPadding: '60px',
+  centerPadding: 110,
 });
 
 $('.feedback__reviews').slick({

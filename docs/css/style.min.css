@@ -1568,13 +1568,14 @@ body {
   max-width: 60%;
   position: relative;
   margin-bottom: 30px;
+  z-index: 2;
 }
 .upgrade__image::before {
   position: absolute;
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #f6f6f6;
+  background-color: #f9f9f9;
   border-bottom: 1px solid #E45128;
   left: 38px;
   top: 30px;
