@@ -15,6 +15,8 @@ body {
   position: relative;
   display: block;
   overflow: hidden;
+  text-transform: uppercase;
+  font-size: 32px;
 
   &::after {
     position: absolute;
