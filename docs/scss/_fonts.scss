@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-style: normal;
+  src: local('Inter-Medium'),
+      url('../fonts/Inter-Medium.woff2') format('woff2'), 
+      url('../fonts/Inter-Medium.woff') format('woff'); 
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sans';
+  font-weight: 700;
+  font-style: normal;
+  src: local('PTSans-Bold'),
+      url('../fonts/PTSans-Bold.woff2') format('woff2'), 
+      url('../fonts/PTSans-Bold.woff') format('woff'); 
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Serif';
+  font-weight: 700;
+  font-style: normal;
+  src: local('PTSerif-Bold'),
+      url('../fonts/PTSerif-Bold.woff2') format('woff2'), 
+      url('../fonts/PTSerif-Bold.woff') format('woff'); 
+  font-display: swap;
+}
