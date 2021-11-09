@@ -10,3 +10,19 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.title {
+  position: relative;
+  display: block;
+  overflow: hidden;
+
+  &::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 90%;
+    background-color: #E45128;
+    bottom: 6px;
+    margin-left: 10px;
+  }
+}
