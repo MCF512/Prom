@@ -621,6 +621,80 @@
   }
 }
 
+.footer {
+  background-color: #5b5b5b;
+  color: #fff;
+  padding-top: 70px;
+  padding-bottom: 53px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #c4c4c4;
+  }
+
+  &__logo {
+    margin-bottom: 30px;
+    display: block;
+  }
+
+  &__subtitle {
+    color: #e45128;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    &--nav {
+      margin-bottom: 31px;
+    }
+
+    &--contacts {
+      margin-bottom: 55px;
+    }
+  }
+
+  &__link {
+    display: block;
+    font-size: 14px;
+    transition: opacity 0.5s;
+
+    &--tel {
+      margin-bottom: 44px;
+      font-size: 18px;
+    }
+
+    &--mail {
+      font-size: 18px;
+    }
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  &__contacts {
+    display: flex;
+  }
+
+  &__contact:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  &__bottom {
+    padding-top: 39px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+}
+
 
 
 
